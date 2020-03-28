@@ -4,7 +4,7 @@
 
 - [ ] BTC-(RAW Block&TX)->ZMQ->APP-(RAW Block&TX)->MongoDB
 - [ ] BTC-(RAW Block&TX)->ZMQ->APP-(Decoded Block&TX)->MongoDB
-- [ ] BTC-(HASH Block&TX)->ZMQ->APP-(GET Decoded Block&TX)->RPC->BTC-(Decoded Block&TX)->RPC->APP->MongoDB
+- [ ] BTC-(HASH Block&TX)->ZMQ->APP-(GET Decoded Block&TX)->RPC->BTC-(Decoded Block&TX)->RPC->APP-(Decoded Block&TX)->MongoDB
 
 ## Установка
 
