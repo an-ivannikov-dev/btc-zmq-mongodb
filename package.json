@@ -1,0 +1,45 @@
+{
+  "name": "btc-zmq-mongodb",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BTC->ZMQ->MongoDB",
+  "author": {
+    "name": "Aleksandr Ivannikov",
+    "email": "dev@an-ivannikov.com",
+    "url": "https://an-ivannikov.com"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bitcoin-rpc": "https://github.com/an-ivannikov-dev/bitcoin-rpc-js.git",
+    "bitcoinjs-lib": "^5.1.7",
+    "bluebird": "^3.7.2",
+    "convict": "^5.2.0",
+    "zeromq": "^6.0.0-beta.6"
+  },
+  "homepage": "https://github.com/an-ivannikov-dev/btc-zmq-mongodb#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/an-ivannikov-dev/btc-zmq-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/an-ivannikov-dev/btc-zmq-mongodb/issues",
+    "email": "dev@an-ivannikov.com"
+  },
+  "keywords": [
+    "bitcoin",
+    "zmq",
+    "rpc",
+    "mongodb"
+  ],
+  "contributors": [
+    {
+      "name": "Aleksandr Ivannikov",
+      "email": "dev@an-ivannikov.com",
+      "url": "https://an-ivannikov.com"
+    }
+  ]
+}
